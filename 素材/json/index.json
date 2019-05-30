@@ -1,0 +1,35 @@
+{
+    "Hothouse": [
+        {"imgs":"素材/image/index/img1.jpg",
+        "p":"文化部中间层一层带阁楼",
+        "measure":"2室1厅96㎡南北",
+        "money":"1105万",
+        "GPS":"红庙北里",
+        "pice":"14268元/平",
+        "schoolhouse":"学区房",
+        "alonehome":"独家"
+        },
+        {
+        "imgs":"素材/image/index/img2.png",
+        "p":"光大水墨  精装复式 稀缺",
+        "measure":"室1厅96㎡南北",
+        "money":" 280万",
+        "GPS":"广水达摩",
+        "pice":"14268元/平",
+        "schoolhouse":"学区房",
+        "alonehome":"独家"
+       
+        },
+        {
+        "imgs":"素材/image/index/img3.png",
+        "p":"南北通透两居  精装修 无",
+        "measure":"2室1厅96㎡南北",
+        "money":"320万",
+        "GPS":"北京新天地",
+        "pice":"14268元/平",
+        "schoolhouse":"地铁房",
+        "alonehome":"独家"
+        }
+    ]
+
+}

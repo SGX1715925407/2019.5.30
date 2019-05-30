@@ -1,0 +1,172 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="素材/css/index.css">
+        <link rel="stylesheet" href="素材/css/swiper.min.css">
+    </head>
+
+    <body>
+
+        <!-- 页头 -->
+        <header>
+            <div class="logo">
+                <img src="素材/image/index/logo.jpg" alt="">
+            </div>
+
+
+            <div class="aBQ">
+                <a href="#"><img src="素材/image/index/my.jpg" alt=""></a>
+                <a href="#"><img src="素材/image/index/xiazai.jpg" alt=""></a>
+            </div>
+        </header>
+
+        <!-- 内容 -->
+        <div class="banner">
+
+
+            <input type="text" value="输入小区开始找房" class="search">
+        </div>
+
+
+
+        <nav>
+            <div class="old-home"><a href="index2.html"> <img src="素材/image/index/index_03.png" alt="">
+                    <p>二手房</p>
+                </a></div>
+            <div class="new-home"><a href=""> <img src="素材/image/index/index_05.png" alt="">
+                    <p>新房</p>
+                </a></div>
+            <div class="zu-home"><a href=""> <img src="素材/image/index/index_07.png" alt="">
+                    <p>租房</p>
+                </a></div>
+            <div class="mai-home"><a href=""> <img src="素材/image/index/index_09.png" alt="">
+                    <p>卖房</p>
+                </a></div>
+        </nav>
+        <div class="banner2">
+            <a href=""><img src="素材/image/index/banner2.png" alt=""></a>
+        </div>
+        <div class="Housingresources">
+            <div class="hothouse">
+                <p>热门房源</p>
+                <p>hothouse</p>
+            </div>
+            <ol class="Housingresources_ol">
+                <!-- <li>
+                    <div class="imgdiv"><img src="素材/image/index/img1.jpg" alt=""></div>
+                    <div class="textdiv">
+                        <p>文化部中间层 一层带阁楼</p>
+                        <p>
+                            <span>2室1厅96㎡南北</span><span class="money">1105万</span>
+                        </p>
+                        <p><span>红庙北里</span><span>14268元/平</span></p>
+                        <p><span class="alhome">学区房</span>
+                            <span class="alhome">独家</span></p>
+
+                    </div>
+                </li> -->
+            </ol>
+        </div>
+        <div class="guanzhu">
+            <div class="GZone">
+                <span class="GZone_a borde">热门关注</span> 
+                <span class="GZone_b">友情链接</span>
+            </div>
+            <div class="GZtwo">
+                <ol class="GZolone ys">
+                    <li>
+                        <a href="">北京二手房</a>
+                    </li>
+                    <li>
+                        <a href="">北京二手房价</a>
+                    </li>
+                    <li>
+                        <a href="">海淀日租房</a>
+                    </li>
+                    <li>
+                        <a href="">朝阳新房</a>
+                    </li>
+                </ol>
+                <ol class="GZoltwo ys">
+                    <li><a href="">北京找房无忧</a></li>
+                    <li><a href="">青年家园</a></li>
+                    <li><a href="">免税房源</a></li>
+                    <li><a href="">满五年唯一免税</a></li>
+                </ol>
+                <ol class="GZolthree ys">
+                    <li>
+                        <a href="">北京三手房</a>
+                    </li>
+                    <li>
+                        <a href="">北京三手房价</a>
+                    </li>
+                    <li>
+                        <a href="">朝阳日租房</a>
+                    </li>
+                    <li>
+                        <a href="">海淀新房</a>
+                    </li>
+                </ol>
+                <ol class="GZolfour ys">
+                    <li><a href="">北京找不着房</a></li>
+                    <li><a href="">青年找不到家园</a></li>
+                    <li><a href="">免税房源不可能</a></li>
+                    <li><a href="">满五年唯一免税,开玩笑</a></li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- 页脚 -->
+        <footer>
+            <p>
+                北京找房无忧网>首页
+            </p>
+            <div>
+                <a href=""><img src="素材/image/index/apple.png" alt="">
+                    <p>iphone</p>
+                    <p>客户端</p>
+                </a>
+                <a href=""><img src="素材/image/index/android.png" alt="">
+                    <p>android</p>
+                    <p>客户端</p>
+                </a>
+            </div>
+            <p class="fp">北京找房无忧房地产经纪公司</p>
+            <p class="fp">网络经营许可证京ICP备20160812号</p>
+
+        </footer>
+        <script src="素材/js/rem.js"></script>
+        <script src="素材/js/zepto.js"></script>
+        <script src="素材/js/index.js"></script>
+        <script src="素材/js/doT.min.js"></script>
+        <script src="素材/js/tap.js"></script>
+        <script src="素材/js/swiper.min.js"></script>
+        <script id="index" type="text-x-dot-template">
+            {{~it.Hothouse:value:index}}
+            <li> 
+                 <div class="imgdiv">
+                <img src="{{=value.imgs}}" alt="">
+                </div>
+                <div class="textdiv">
+                    <p>{{=value.p}}</p>
+                    <p>
+                        <span>{{=value.measure}}</span><span class="money">{{=value.money}}</span>
+                    </p>
+                    <p><span>{{=value.GPS}}</span><span>{{=value.pice}}</span></p>
+                    <p><span class="alhome">{{=value.schoolhouse}}</span>
+                        <span class="alhome">{{=value.alonehome}}</span></p>
+
+                </div>
+             </li>
+            {{~}}
+        </script>
+        <!-- <script src="素材/js/jquery-3.4.0.js"></script> -->
+        <!-- <script src="素材/js/doT.min.js"></script> -->
+    </body>
+
+    </html>

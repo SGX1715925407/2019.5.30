@@ -1,0 +1,29 @@
+{
+    "house":[
+    {
+    "img":"素材/image/SecondHandList/img1.png",
+    "house":"西便门外大街2室1厅89平",
+    "height":"南北 高楼层",
+    "pice":"13244元",
+    "moey":"905万",
+    "date":"2015年11月10日"
+    },
+    {
+    "img":"素材/image/SecondHandList/img2.png",
+    "house":"金桥国际1室1厅89平",
+    "height":"南北 高楼层",
+    "pice":"13244元",
+    "moey":"905万",
+    "date":"2015年11月10日"
+    },
+
+    {
+    "img":"素材/image/SecondHandList/img3.png",
+    "house":"花涧溪二期 2室2厅 90平",
+    "height":"南北 高楼层/6层",
+    "pice":"13244元/平",
+    "moey":"1322万",
+    "date":"2015年11月10日"
+}
+]
+}

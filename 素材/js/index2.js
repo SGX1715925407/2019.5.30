@@ -1,0 +1,55 @@
+$(function(){
+$.ajax({
+    url:"素材/json/index2.json",
+    success:function(a){
+        var interText = doT.template($("#index2").text());
+        $(".content>ul").html(interText(a));
+    }
+    })
+    $('.qy').hide();
+    $(".daohang").tap(function(){
+      $(this).css("color","orange");
+      $(this).parent().siblings().children().css('color','black');
+      $(this).parent().parent().siblings().hide();
+      $(".qy").show("fast");
+      $(".Lb>p").eq(0).css("color","orange");
+      $(".Lb>p").eq(0).css("background","white");
+  })
+  $(".daohang1").tap(function(){
+    $(this).css("color","orange");
+    $(this).parent().siblings().children().css('color','black');
+    $(this).parent().parent().siblings().hide();
+    $(".jiage").show("fast");
+    $(this).css("color","orange");
+    $(this).css("background","white");
+  })
+  $(".daohang2").tap(function(){
+    $(this).css("color","orange");
+    $(this).parent().siblings().children().css('color','black');
+    $(this).parent().parent().siblings().hide();
+    $('.houseXing').show("fast");
+    $(this).css("color","orange");
+      $(this).css("background","white");
+  })
+  $(".daohang3").tap(function(){
+    $(this).css("color","orange");
+    $(this).parent().siblings().children().css('color','black');
+    $(this).parent().parent().siblings().hide();
+    $('.more').show("fast");
+    $(this).css("color","orange");
+      $(this).css("background","white");
+  })
+  $(".content").tap(function(){
+       
+        $('.houseXing').hide("fast");
+        $(".jiage").hide("fast");
+        $(".qy").hide("fast");
+  })
+  $('.clear').tap(function(){
+        $('.more').hide("fast");
+  })
+  $(".content").tap(function(){
+    window.location.replace("Commoditydetails.html")
+    
+  })
+})
